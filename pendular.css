@@ -1,0 +1,29 @@
+#pendulum-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el péndulo */
+    height: 400px; /* Ajusta la altura de acuerdo a tus necesidades */
+    padding-top: 10px; /* Añade espacio en la parte superior de la tarjeta */
+}
+
+
+#pendulum {
+    width: 4px;
+    height: 350px; /* Aumenta el tamaño del péndulo */
+    background-color: #333;
+    transform-origin: center top;
+    border-top-left-radius: 50%; /* Aumenta el redondeado en la parte superior */
+    border-top-right-radius: 50%;
+    
+}
+
+.card {
+    border: none; /* Elimina el borde de la tarjeta */
+    border-radius: 20px; /* Aumenta el redondeado de las tarjetas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave */
+    margin: 10px; /* Agrega un margen exterior a las tarjetas */
+}
+
+.card-body {
+    padding: 20px; /* Añade relleno al contenido de la tarjeta */
+}
+
