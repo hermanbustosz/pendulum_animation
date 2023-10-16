@@ -1,6 +1,8 @@
 # pendulum_animation
 Animación sencilla del movimiento pendular
 
+Programado en JavaScript
+
 Incluye tres controles deslizantes para variar parámetros como longitud teórica, amplitud del movimiento y gravedad. Sólo el cambio de amplitud se ve reflejada en la animación, pero los valores para longitud y gravedad no afectan el tamaño de la gráfica y sólo se emplean en el cálculo del periodo y la frecuencia del movimiento, los cuales sí se notan en la animación.
 
 Además, los controles deslizantes pueden ser controlados por las teclas q, w, e; a, s, d; z, x, c.
